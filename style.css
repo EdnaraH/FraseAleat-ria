@@ -49,6 +49,7 @@ button {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); /* Sombra do texto */
   filter: brightness(1.1); /* Aumenta o brilho do botão */
   border-radius: 5px; /* Arredonda os cantos do botão */
+  cursor:pointer;
   }
 
 #buttonPerson {
