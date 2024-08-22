@@ -8,10 +8,12 @@
 }
 
 .screen {
-  width: 1920px;
-  height: 1080px;
-  position: relative;
+  width: 90%; /* Usa 90% da largura do contêiner pai */
+  max-width: 320px; /* Limita a largura máxima a 320px */
+  height: 90%; /* Usa 90% da altura do contêiner pai */
+  max-height: 450px; /* Limita a altura máxima a 450px */
   background-color: #fff;
+  border: 0px solid #fff;
 }
 
 /* Estilo dos labels e botões */
