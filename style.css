@@ -1,0 +1,66 @@
+/* Adiciona um container para centralizar o conteúdo */
+.container {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Usa a altura total da tela */
+  margin: 0;
+}
+
+.screen {
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  background-color: #fff;
+}
+
+/* Estilo dos labels e botões */
+label {
+  display: block;
+  width: 285px;
+  height: 40px;
+  position: absolute;
+  top: 175px;
+  left: 15px;
+  padding: 2px;
+  font-size: 18px;
+  line-height: 1;
+  background-color: #fff;
+  color: #0d0d0d;
+  border: 3px solid #1abc9c;
+  border-radius: 5px; /* Arredonda os cantos do botão */
+}
+
+button {
+  height: 23px;
+  width: 70px;
+  background: linear-gradient(135deg, #1abc9c, #16a085); /* Gradiente linear */
+  color: #fff;
+  border: 2px solid #d1f5eee2; 
+  font-size: 15px;
+  position: absolute;
+  box-shadow: 0px 2px 2px #0aecbf13; /* Sombra da caixa */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4); /* Sombra do texto */
+  filter: brightness(1.1); /* Aumenta o brilho do botão */
+  border-radius: 5px; /* Arredonda os cantos do botão */
+  }
+
+#buttonPerson {
+  left: 15px;
+  top: 230px;
+}
+
+#buttonVerbIR {
+  left: 89px;
+  top: 230px;
+}
+
+#buttonPlace {
+  left: 163px;
+  top: 230px;
+}
+
+#buttonTask {
+  left: 237px;
+  top: 230px;
+}
