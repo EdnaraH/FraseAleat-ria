@@ -14,6 +14,10 @@
   max-height: 450px; /* Limita a altura máxima a 450px */
   background-color: #fff;
   border: 0px solid #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* Estilo dos labels e botões */
